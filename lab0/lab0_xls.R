@@ -1,8 +1,8 @@
 # install.packages("tidyverse")
-data <- read_xls("2010EPI_data.xls", sheet='EPI2010_onlyEPIcountries')
-View(data)
+data1 <- read_xls("2010EPI_data.xls", sheet='EPI2010_onlyEPIcountries')
+View(data1)
 
 # install.packages("readxl")
 library("readxl")
-data <- read_excel("2010EPI_data.xls", sheet="EPI2010_onlyEPIcountries")
-View(data)
+data2 <- read_excel("EPI_data.xls", sheet="EPI2010_all countries")
+View(data2)
