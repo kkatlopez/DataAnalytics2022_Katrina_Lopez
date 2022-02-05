@@ -1,4 +1,4 @@
-## Exercise 1
+## Part 1, Exercise 1
 data <- read.csv('data/2010EPI_data.csv', header=TRUE)
 # View(data)
 
@@ -16,7 +16,7 @@ qqnorm(data$EPI)
 qqplot(qt(ppoints(250), df = 5), x, xlab = "Q-Q plot for t dsn")
 qqline(x)
 
-# Land Arera
+# Land Area
 summary(data$Landarea)
 fivenum(data$Landarea, na.rm=TRUE)
 stem(data$Landarea)

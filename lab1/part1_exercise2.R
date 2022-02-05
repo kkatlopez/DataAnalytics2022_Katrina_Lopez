@@ -1,4 +1,4 @@
-## Exercise 2
+## Part 1, Exercise 2
 data <- read.csv('data/2010EPI_data.csv', header=TRUE)
 # View(data)
 
