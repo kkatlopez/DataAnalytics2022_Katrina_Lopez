@@ -1,10 +1,10 @@
 ## Part 2, Exercise 2 - Multivariate
 
 multivariate <- read.csv("data/multivariate.csv")
-View(multivariate)
+# View(multivariate)
 attach(multivariate)
 
-help(lm) # linear models
+# help(lm) # linear models
 mm <- lm(multivariate$Homeowners~multivariate$Immigrant)
 mm # coefficients: (intercept) = 107495; multivariate$Immigrant = -6657
 summary(mm)$coef # output shows estimate of regression beta coefficients (Estimate) and significance levels (Pr(>|t|))
